@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">813255800487-vkh22je3j46s0f3s40ovm7h1js6c2re4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://iwak-4d775.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">813255800487</string>
+    <string name="google_api_key" translatable="false">AIzaSyBmR6akrs85SOHrfPAyci7yc86WWH8lTjo</string>
+    <string name="google_app_id" translatable="false">1:813255800487:android:1a59c134a117703d878d82</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBmR6akrs85SOHrfPAyci7yc86WWH8lTjo</string>
+    <string name="google_storage_bucket" translatable="false">iwak-4d775.appspot.com</string>
+    <string name="project_id" translatable="false">iwak-4d775</string>
+</resources>

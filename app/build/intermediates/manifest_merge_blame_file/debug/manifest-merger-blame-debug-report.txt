@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.iwak"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:5:5-33:19
+17        android:name="com.example.iwak.database.MyApp"
+17-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:6:9-39
+18        android:allowBackup="true"
+18-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:hardwareAccelerated="false"
+21-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:8:9-44
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:9:9-43
+23        android:label="@string/app_name"
+23-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:10:9-41
+24        android:largeHeap="true"
+24-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:11:9-33
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:12:9-54
+26        android:supportsRtl="true"
+26-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:13:9-35
+27        android:theme="@style/AppTheme" >
+27-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:14:9-40
+28        <activity android:name="com.example.iwak.MessageActivity" />
+28-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:15:9-62
+28-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:15:19-50
+29        <activity android:name="com.example.iwak.MateriActivity" />
+29-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:16:9-52
+29-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:16:19-49
+30        <activity android:name="com.example.iwak.AdminActivity" />
+30-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:17:9-51
+30-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:17:19-48
+31        <activity android:name="com.example.iwak.ResultActivity" />
+31-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:18:9-52
+31-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:18:19-49
+32        <activity android:name="com.example.iwak.QuizActivity" />
+32-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:19:9-50
+32-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:19:19-47
+33        <activity android:name="com.example.iwak.StageSelectorActivity" />
+33-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:20:9-59
+33-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:20:19-56
+34        <activity android:name="com.example.iwak.EndStageActivity" />
+34-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:21:9-54
+34-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:21:19-51
+35        <activity android:name="com.example.iwak.SplashScreenActivity" />
+35-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:22:9-57
+35-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:22:19-55
+36        <activity android:name="com.example.iwak.LoginActivity" />
+36-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:23:9-51
+36-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:23:19-48
+37        <activity android:name="com.example.iwak.RegisterActivity" />
+37-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:24:9-54
+37-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:24:19-51
+38        <activity android:name="com.example.iwak.IwakSelectorActivity" >
+38-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:25:9-31:20
+38-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:25:19-55
+39            <intent-filter>
+39-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:26:13-30:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:27:17-69
+40-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:27:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:29:17-77
+42-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:29:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.example.iwak.MainActivity" />
+45-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:32:9-50
+45-->D:\## Downloads\coba\iwak\app\src\main\AndroidManifest.xml:32:19-47
+46
+47        <service
+47-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:29:9-35:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:30:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dcddc30f2b045ccbf4d41b49eafd3440\firebase-common-19.1.0\AndroidManifest.xml:14:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:31:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:32:13-34:85
+52                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+52-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:33:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-database:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\f22e5c184aae76b19d0105429a634e45\firebase-database-19.1.0\AndroidManifest.xml:34:17-82
+54        </service>
+55
+56        <activity
+56-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\9aa43e4d859846d255e0c2916968f517\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+57            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+57-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\9aa43e4d859846d255e0c2916968f517\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+58            android:exported="false"
+58-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\9aa43e4d859846d255e0c2916968f517\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\9aa43e4d859846d255e0c2916968f517\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+60
+61        <provider
+61-->[com.google.firebase:firebase-common:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dcddc30f2b045ccbf4d41b49eafd3440\firebase-common-19.1.0\AndroidManifest.xml:17:9-21:39
+62            android:name="com.google.firebase.provider.FirebaseInitProvider"
+62-->[com.google.firebase:firebase-common:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dcddc30f2b045ccbf4d41b49eafd3440\firebase-common-19.1.0\AndroidManifest.xml:18:13-77
+63            android:authorities="com.example.iwak.firebaseinitprovider"
+63-->[com.google.firebase:firebase-common:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dcddc30f2b045ccbf4d41b49eafd3440\firebase-common-19.1.0\AndroidManifest.xml:19:13-72
+64            android:exported="false"
+64-->[com.google.firebase:firebase-common:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dcddc30f2b045ccbf4d41b49eafd3440\firebase-common-19.1.0\AndroidManifest.xml:20:13-37
+65            android:initOrder="100" />
+65-->[com.google.firebase:firebase-common:19.1.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\dcddc30f2b045ccbf4d41b49eafd3440\firebase-common-19.1.0\AndroidManifest.xml:21:13-36
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\73ad4462c728e5945c045256c7a695be\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\73ad4462c728e5945c045256c7a695be\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Windows\.gradle\caches\transforms-2\files-2.1\73ad4462c728e5945c045256c7a695be\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+70    </application>
+71
+72</manifest>

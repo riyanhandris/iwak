@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="#78BF74">
+
+    <TextView
+        android:id="@+id/tv_stage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Hasil"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_below="@id/tv_stage"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/bg_result">
+
+    <ImageView
+        android:id="@+id/benar1"
+        android:src="@drawable/benar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="27dp"
+        android:visibility="gone"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/benar2"
+        android:src="@drawable/benar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="82dp"
+        android:visibility="gone"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/benar3"
+        android:src="@drawable/benar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="134dp"
+        android:visibility="gone"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/benar4"
+        android:src="@drawable/benar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="189dp"
+        android:visibility="gone"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/benar5"
+        android:src="@drawable/benar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="243dp"
+        android:visibility="gone"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/salah1"
+        android:src="@drawable/salah"
+        android:visibility="gone"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/salah2"
+        android:src="@drawable/salah"
+        android:visibility="gone"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/salah3"
+        android:visibility="gone"
+        android:src="@drawable/salah"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/salah4"
+        android:visibility="gone"
+        android:src="@drawable/salah"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginHorizontal="280dp"/>
+
+    <ImageView
+        android:id="@+id/salah5"
+        android:visibility="gone"
+        android:src="@drawable/salah"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="243dp"
+        android:layout_marginHorizontal="280dp"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_lanjutkan"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/buttonprimaryblue"
+        android:text="LANJUTKAN"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_keluar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/buttonprimaryred"
+        android:text="KELUAR"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</RelativeLayout>

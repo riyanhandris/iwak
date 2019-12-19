@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "813255800487",
+    "firebase_url": "https://iwak-4d775.firebaseio.com",
+    "project_id": "iwak-4d775",
+    "storage_bucket": "iwak-4d775.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813255800487:android:1a59c134a117703d878d82",
+        "android_client_info": {
+          "package_name": "com.example.iwak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813255800487-gog41gd9hu8p4g0g2cbksvp2gqoleru2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iwak",
+            "certificate_hash": "cbfd2f00f1ca31931e7884532ef696ca9d41487b"
+          }
+        },
+        {
+          "client_id": "813255800487-vkh22je3j46s0f3s40ovm7h1js6c2re4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmR6akrs85SOHrfPAyci7yc86WWH8lTjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813255800487-vkh22je3j46s0f3s40ovm7h1js6c2re4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

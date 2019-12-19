@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="wrap_content" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp"
+
+        tools:context=".AdminActivity">
+        <TextView
+            android:id="@+id/tv_ikan"
+            android:text="Ikan "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_ikan"
+            android:layout_below="@id/tv_ikan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:layout_below="@id/et_ikan"
+            android:id="@+id/tv_title"
+            android:text="Ikan "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_below="@id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_soal"
+            android:text="Soal "
+            android:layout_below="@id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_soal"
+            android:layout_below="@id/tv_soal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_pilihanA"
+            android:text="Pilihan A "
+            android:layout_below="@id/et_soal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_pilihanA"
+            android:layout_below="@id/tv_pilihanA"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_pilihanB"
+            android:text="Pilihan B "
+            android:layout_below="@id/et_pilihanA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_pilihanB"
+            android:layout_below="@id/tv_pilihanB"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_pilihanC"
+            android:text="Pilihan C "
+            android:layout_below="@id/et_pilihanB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_pilihanC"
+            android:layout_below="@id/tv_pilihanC"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_pilihanD"
+            android:text="Pilihan D "
+            android:layout_below="@id/et_pilihanC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_pilihanD"
+            android:layout_below="@id/tv_pilihanD"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_jawaban"
+            android:text="jawaban "
+            android:layout_below="@id/et_pilihanD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_jawaban"
+            android:layout_below="@id/tv_jawaban"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_stage"
+            android:text="stage "
+            android:layout_below="@id/et_jawaban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/et_stage"
+            android:layout_below="@id/tv_stage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:layout_below="@id/et_stage"
+            android:id="@+id/btn"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="anjing"/>
+    </RelativeLayout>
+</ScrollView>
